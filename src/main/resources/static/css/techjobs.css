@@ -26,15 +26,17 @@ tr:nth-child(odd) {
 table.job-listing {
     margin: 30px auto;
     border: 1px solid #e4e4e4;
-    width: 80%;
+    width: 30%;
 }
 
 table.job-listing td:first-child {
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 table.job-listing td:last-child {
     width: 80%;
+    font-style: italic;
 }
 
 label {
